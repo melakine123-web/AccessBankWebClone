@@ -328,3 +328,47 @@ width: 300px;
 h2{
     font-size: large;
 }
+
+/* footer */
+footer{
+background-color: #014086;
+background-image: url('https://www.accessbankplc.com/content/images/access-logo-bg.svg');
+background-position: right;
+background-repeat: no-repeat;
+padding-block: 3rem;
+margin-top: 10rem;
+}
+
+.innerFooter{
+    max-width: 970px;
+    margin: auto;
+    display: flex;
+
+}
+
+.footerCard{
+    /* flex: 1; */
+    width: 50%;
+    color: #fff;
+}
+
+.footerCard > h2{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footerCard > ul{
+    margin-top: 1rem;
+
+}
+.footerCard > ul > li{
+    list-style: none;
+    margin-bottom: .4rem;
+}
+
+.footerCard > ul > li > a{
+    color: #ccc;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+}
